@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+}
+
+.status {
+  font-size: 3vw;
+  margin-bottom: 5px;
+} 
+
+.square {
+  height: 10vw;
+  width: 10vw;
+  font-size: 5vw;
+}
+
+.winner {
+  height: 10vw;
+  width: 10vw;
+  font-size: 5vw;
+  background-color: lightgreen;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+}
